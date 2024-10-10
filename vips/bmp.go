@@ -1,10 +1,11 @@
 package vips
 
 import (
-	"golang.org/x/image/bmp"
 	"image"
 	"image/draw"
 	"io"
+
+	"golang.org/x/image/bmp"
 )
 
 func loadImageFromBMP(r io.Reader) (*Image, error) {

@@ -7,6 +7,9 @@ test:
 dev: build
 	./bin/imagor -debug -imagor-unsafe
 
+gow:
+	gow run ./cmd/imagor/main.go -debug -imagor-unsafe
+
 help: build
 	./bin/imagor -h
 
